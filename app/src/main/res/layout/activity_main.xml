@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/create_noti_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lbl_create_notification"/>
+
+    <Button
+        android:id="@+id/clear_noti_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/create_noti_btn"
+        android:layout_alignRight="@+id/create_noti_btn"
+        android:layout_below="@+id/create_noti_btn"
+        android:text="@string/lbl_clear_all_notifications"/>
+
+    <RelativeLayout
+        android:id="@+id/stop_notification_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/clear_noti_btn"
+        android:paddingLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"
+            android:text="@string/lbl_stop_notification"/>
+
+        <Switch
+            android:id="@+id/stop_notification_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:switchMinWidth="56dp"
+            android:switchPadding="0dp"
+            android:textOff=""
+            android:textOn=""
+            android:thumbTextPadding="24dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

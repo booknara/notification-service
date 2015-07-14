@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notification Manager</string>
+
+    <string name="action_notification_settings">Notification Settings</string>
+
+    <string name="allow_notification_access_title">Allow Notification Access</string>
+    <string name="allow_notification_access_msg">This application needs to grant notification access to block notifications. Just go to the Settings page and allow this app notification access.</string>
+
+    <string name="lbl_go_to_setting">Go to Setting</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_stop_notification">Block Notifications</string>
+    <string name="lbl_create_notification">Create a notification</string>
+    <string name="lbl_clear_all_notifications">Clear all notifications</string>
+
+    <string name="notifications_settings_not_found">Notification settings UI has not been found. Try to find it manually in Settings.</string>
+
+</resources>
