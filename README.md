@@ -2,6 +2,7 @@
 
 ## Introduction
 This project shows you how to control and block a notification message in Android using NotificationListenerService class that is introduced from API level 18. This application works on Android 4.3+.
+![Sample](https://github.com/booknara/notification-service/blob/master/screenshot.png)
 
 ## License
 
